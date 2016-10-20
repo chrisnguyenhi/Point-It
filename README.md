@@ -5,10 +5,10 @@ This application is powered by a mix of PHP and Javascript along with HTML/CSS f
 Additonally, this application uses a MySQL database to store point data.
 
 ![alt tag](https://github.com/chrisnguyenhi/Point-It/blob/master/Screenshot1.PNG)
-**Adding point data to the map. 
+<p align="center">**Adding point data to the map.**</p>
 
 ![alt tag](https://github.com/chrisnguyenhi/Point-It/blob/master/Screenshot2.PNG)
-**This application makes full use of the Google Maps API.
+<p align="center">**This application makes full use of the Google Maps API.**</p>
 
 ![alt tag](https://github.com/chrisnguyenhi/Point-It/blob/master/Screenshot3.PNG)
-**Viewing specific data for each point entry. 
+<p align="center">**Viewing specific data for each point entry.**</p>
