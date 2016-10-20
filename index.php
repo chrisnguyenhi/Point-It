@@ -41,7 +41,7 @@
 		location.href = "./allunknown.php";
 	};
 	</script>
-	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBTcEuXHSTynBWEmBVct2HYObhDmIE_Y3U&sensor=false"></script>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/MY-API-KEY"></script>
 	<script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript">
 
