@@ -1,6 +1,6 @@
 # Point-It
 
-Point It a database-backed web application using the Google Maps API. 
+Point It! is a database-backed web application using the Google Maps API. 
 This application is powered by a mix of PHP and Javascript along with HTML/CSS for styling. 
 Additonally, this application uses a MySQL database to store point data.
 
