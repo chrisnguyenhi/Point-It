@@ -1,0 +1,139 @@
+@font-face {
+	font-family: amatic;
+	src: url(amatic.ttf);
+}
+
+h1.heading{
+	padding:0px;
+	margin: 0px 0px 11px 0px;
+	text-align:center;
+	font: 40px amatic, Arial;
+	font-weight: bold;
+	color: white;
+	background-color: black;
+}
+
+#google_map {
+	width: 90%; 
+	height: 400px;
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+}
+table{
+	background-color:white;
+	color:black;
+}
+body {
+	color: white;
+	background-color: black;
+	font: 20px Arial;
+}
+
+h1 {
+	color: black;
+	background-color: white;
+}
+
+form{
+	color: black;
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+	font: 25px amatic, Arial;
+}
+
+.bigbtn {
+	background: #000000;
+	background-image: -webkit-linear-gradient(top, #000000, #000000);
+	background-image: -moz-linear-gradient(top, #000000, #000000);
+	background-image: -ms-linear-gradient(top, #000000, #000000);
+	background-image: -o-linear-gradient(top, #000000, #000000);
+	background-image: linear-gradient(to bottom, #000000, #000000);
+	-webkit-border-radius: 19;
+	-moz-border-radius: 19;
+	border-radius: 19px;
+	text-shadow: 1px 1px 3px #edd8ed;
+	-webkit-box-shadow: 0px 1px 3px #000000;
+	-moz-box-shadow: 0px 1px 3px #000000;
+	box-shadow: 0px 1px 3px #000000;
+	font-family: amatic, Arial;
+	color: #ffffff;
+	font-size: 25px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+.bigbtn:hover {
+	background: #ffffff;
+	color: black;
+	background-image: -webkit-linear-gradient(top, #ffffff, #faf2fa);
+	background-image: -moz-linear-gradient(top, #ffffff, #faf2fa);
+	background-image: -ms-linear-gradient(top, #ffffff, #faf2fa);
+	background-image: -o-linear-gradient(top, #ffffff, #faf2fa);
+	background-image: linear-gradient(to bottom, #ffffff, #faf2fa);
+	text-decoration: none;
+}
+
+.marker-edit label{
+	display:block;
+	margin-bottom: 4px;
+}
+
+.marker-edit label span {
+	width: 90px;
+	float: left;
+}
+
+.marker-edit label input,
+
+.marker-edit label select{
+	height: 20px;
+}
+
+.marker-edit label textarea{
+	color: black;
+	height: 50px;
+}
+
+.marker-edit label input, .marker-edit label select, .marker-edit label textarea {
+	width: 50%;
+	margin:2px;
+	padding-left: 2px;
+	border: 1px solid #DDD;
+	border-radius: 2px;
+}
+
+h1.marker-heading{
+	color: black;
+	margin: 0px;
+	padding: 0px;
+	font: 16px Arial;
+	border-bottom: 1px dotted #D8D8D8;
+}
+
+div.marker-info-win {
+	max-width: 300px;
+	margin-right: -20px;
+}
+
+div.marker-info-win p{
+	padding: 0px;
+	margin: 10px 0px 10px 0;
+}
+
+div.marker-inner-win{
+	padding: 5px;
+}
+
+button.save-marker, button.remove-marker{
+	border: none;
+	background: rgba(0, 0, 0, 0);
+	color: red;
+	padding: 0px;
+	text-decoration: underline;
+	margin-right: 10px;
+	cursor: pointer;
+}
