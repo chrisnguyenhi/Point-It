@@ -90,7 +90,7 @@
 					var type = $(this).attr('type');
 					// Get the latitude and longitude from the point data (as floats)
 					var point = new google.maps.LatLng(parseFloat($(this).attr('lat')),parseFloat($(this).attr('lng')));
-					addPoint(point, name, address, false, false, false, "http://localhost/pointit/img/saved.png");
+					addPoint(point, name, address, false, false, false, "http://localhost/Point-It/img/saved.png");
 				});
 			});	
 			
@@ -107,7 +107,7 @@
 				'</div></p><button name="save-marker" class="save-marker">Save Point</button>';
 
 				// Adds a new point icon onto the Google Map where the user right-clicked
-				addPoint(event.latLng, 'Data Point', formData, true, true, true, "http://localhost/pointit/img/editing.png");
+				addPoint(event.latLng, 'Data Point', formData, true, true, true, "http://localhost/Point-It/img/editing.png");
 			});
 
 }
@@ -243,7 +243,7 @@
 				// Prevent the data point from being dragged again
 				Marker.setDraggable(false); 
 				// Change the data point color to show that it has been saved
-				Marker.setIcon('http://localhost/pointit/img/saved.png'); 
+				Marker.setIcon('http://localhost/Point-It/img/saved.png'); 
 			},
 			// If there is an error in saving, this function triggers
 			error:function (xhr, ajaxOptions, thrownError){
