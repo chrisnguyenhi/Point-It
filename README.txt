@@ -1,0 +1,1 @@
+ICS 321 Data Storage and Retrieval Database Project by Christopher Nguyen. Please do not redistribute or share without my permission because the index.html file contains my Google Maps API Key. 
