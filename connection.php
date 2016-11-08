@@ -1,9 +1,9 @@
 <?php
-// Database information
-$db_username = 'root';
-$db_password = '';
-$db_name = 'ics321';
-$db_host = 'localhost';
+// Database information (values hidden)
+$db_username = 
+$db_password = 
+$db_name = 
+$db_host = 
 
 // Login mySQL with the database information
 $mysqli = new mysqli($db_host, $db_username, $db_password, $db_name);
