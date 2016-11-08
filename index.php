@@ -41,7 +41,7 @@
 		location.href = "./allunknown.php";
 	};
 	</script>
-	// API key hidden
+	// API Key Hidden
 	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/MY-API-KEY"></script>
 	<script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript">
