@@ -41,12 +41,12 @@
 		location.href = "./allunknown.php";
 	};
 	</script>
+	// API key hidden
 	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/MY-API-KEY"></script>
 	<script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript">
 
 	$(document).ready(function() {
-		// NOTE: This index.php loads the Google Maps API using Christopher Nguyen's API Key hardcoded above in the scripts src (DO NOT SHARE THE API KEY TO ANYONE)
 		var map;
 
 	//Startup the map
